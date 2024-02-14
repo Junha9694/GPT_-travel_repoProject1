@@ -27,38 +27,6 @@
         * 빌드 시스템으로 되어 있지 않아 JS를 알면 직접 커스터마이징 가능
     * 블로그 글을 컴파일 없이 확인 가능
     * ipynb에 대한 블로깅 가능
- 
-*gantt
-    dateFormat  MM-DD
-    title 웹 프로젝트 개발 일정
-
-    section 프로젝트 기획
-    프로젝트 목표 정의          :done,    des1, 02-12, 2h
-    주요 기능 리스트업         :done,       des2, after des1, 2h
-    타겟 사용자 분석           :done,      des3, after des2, 2h
-    레퍼런스 분석               :done,     des4, after des3, 2h
-
-    section 기술 스택 결정 및 개발 환경 설정
-    프론트엔드 기술 스택 결정  :done,       des5, 02-13, 2h
-    개발 환경 결정             :done,      des6, after des5, 2h
-
-    section 개발 시작
-    라이브러리 개인화          :done,      des7, 02-13, 4h
-    ai api와 연결             :done,     des8, after des7, 2h
-
-    section 디자인
-    컬러 스킴 및 폰트 결정     :done,         des9, 02-14, 2h
-    로고 및 브랜딩 자료 디자인 :         des10, after des9, 2h
-    와이어프레임 작성          :done,         des11, after des10, 4h
-    UI 프로토타입 제작         :         des12, after des11, 4h
-
-    section 프로젝트 리뷰 및 마무리
-    코드 리뷰                 :         des13, 02-15, 2h
-    최종 테스트               :         des14, after des13, 2h
-    배포 준비                 :         des15, after des14, 2h
-
- 
-
 * 구조
 ```mermaid
 graph LR
