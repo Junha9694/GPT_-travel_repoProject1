@@ -1,5 +1,5 @@
 # github_blog
-![GPT_-travel_repoProject1](./images/banners/Banner.png)
+![GPT_-travel_repoProject1](./images/Banner.png)
 
 * 목표
     * github에서 fork로 바로 blog를 만들 수 있는 정적 페이지 제공 프로젝트
