@@ -1,10 +1,11 @@
 # Drive Food Project
 ![GPT_-travel_repoProject1](./images/Banner.png)
 
-* 목표
-    * github에서 fork로 바로 blog를 만들 수 있는 정적 페이지 제공 프로젝트
-    * 학생에게 프로젝트 양식 샘플 제공(https://github.com/weniv/project_sample_repo repo와 추후 연결)
-    * 회사 주피터 노트북 등 지적 재산을 누적하기 위한 블로그 프로젝트
+## 기능
+
+- **드라이브 추천**: GPT-3.5를 통해 입력한 장소의 드라이브 코스 및 관광지, 야경을 추천 받습니다
+- **근처 맛집 추천**: 드라이브 코스 근처 맛집을 추천 받습니다.
+
 
 * 사용방법
     1. github pages를 활성화 해주세요.
