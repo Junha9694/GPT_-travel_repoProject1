@@ -35,31 +35,6 @@ flowchart TD
     G -->|입력전송| H[Index.html]
     D -->|스타일전송| H
 ```
-* 중요 의사결정
-    * 서비스 고도화에 따라 의사결정이 필요한 부분 정리
-        * local_blogList.json과 local_blogMenu.json를 사용자에게 작성하게 하면 무제한으로 API를 활용할 수 있음
-
-* 폴더 트리
-
-    | 폴더명 | 파일명 | 함수 | 변수 | 비고 |
-    |--------|--------|------|------|------|
-    | style  | globalStyle.js | | | 전역 스타일 설정 |
-    | style  | blogContentsStyle.js | | | 블로그 컨텐츠 스타일 설정 |
-    | JS     | config.js | | siteConfig | 사이트 설정 정보 |
-    | JS     | URLparsing.js | extractFromUrl() | url(url obj), pathParts(쿼리스트링), isLocal | URL 파싱, 스키마 확인 |
-    | JS     | render.js | renderBlogPosts(), renderMenu() | | 데이터를 DOM에 렌더링 |
-    | JS     | initData.js | initDataBlogList(), initDataBlogMenu() | blogList, blogMenu | 초기 데이터 로딩, 스키마 확인 |
-
-* 코드 컨벤션과 변수 컨벤션
-    * 변수명(함수명): 역할
-        * blogList(initDataBlogList): (fetch) repo에서 blog폴더에 있는 파일 명을 정규표현식으로 파싱, 데이터가 이미 있다면 다시 통신하지 않음.
-        * blogMenu(initDataBlogMenu): (fetch) repo에서 menu폴더에 있는 파일 명을 파싱, 데이터가 이미 있다면 다시 통신하지 않음.
-        * posts: (fetch) post의 정보를 가져와 데이터 저장, 재접속시 , 데이터가 이미 있다면 다시 통신하지 않음.
-        * url
-            * url: 현재 url
-            * pathParts: split된 url
-            * origin: href + pathname
-        * isLocal: 로컬과 배포여부
 
 * WBS
 ```mermaid
@@ -67,8 +42,8 @@ gantt
     title 깃헙 정적 블로그
     dateFormat  YYYY-MM-DD
     section 계획
-    프로젝트 범위 정의        :done,    des1, 2024-01-15, 2d
-    요구사항 수집             :active,  des2, after des1, 5d
+    프로젝트 구상       :done,    des1, 2024-02-12, 2d
+    style.css 작성     :active,  des2, after des1, 1d
     section 설계
     와이어프레임 작성         :         des3, after des2, 7d
     데이터베이스 스키마 설계  :         des4, after des2, 7d
