@@ -119,13 +119,12 @@ gantt
         </tr>
         <tr width="70%">
             <td width="70%">
-                <img src="readme_img/Blog_posts.jpg">
+                <img src="images/search.jpg">
             </td>
             <td>
                 <ul>
-                    <li>목록을 불러오는 것이 불필요 하지만 검색 버튼을 눌렀을 경우 목록을 불러올 필요가 있음</li>
-                    <li>URL 파싱 및 URL 변경 필요</li>
-                    <li>posts 변수에 담아 다른 페이지 이동 후 재접속 할 때 다시 통신하지 않게 처리</li>
+                    <li>검색창</li>
+                    <li>가고 싶은 여행지 입력</li>
                 </ul>
             </td>
         </tr>
