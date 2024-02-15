@@ -23,7 +23,7 @@ graph TD;
     Index.html-->style.css;
     Index.html-->style.js;
     style.js-->GPT 3.5;
-    GPT 3.5--> Index.html;
+    GPT 3.5--> Index.html1;
 ```
 * 중요 의사결정
     * 서비스 고도화에 따라 의사결정이 필요한 부분 정리
