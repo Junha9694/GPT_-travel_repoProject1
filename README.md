@@ -149,7 +149,7 @@ gantt
     </table>
         <table>
         <tr>
-            <th>그 외 메뉴 화면</th>
+            <th>검색 후 나오는 화면</th>
             <th>설명</th>
         </tr>
         <tr>
