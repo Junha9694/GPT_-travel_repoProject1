@@ -119,7 +119,7 @@ gantt
         </tr>
         <tr width="70%">
             <td width="70%">
-                <img src="images/search.jpg">
+                <img src="images/search1.jpg">
             </td>
             <td>
                 <ul>
@@ -136,12 +136,13 @@ gantt
         </tr>
         <tr>
             <td width="70%">
-                <img src="readme_img/About.jpg">
+                <img src="images/search1.jpg">
             </td>
             <td>
                 <ul>
-                    <li>목록을 불러오는 것이 불필요 하지만 검색 버튼을 눌렀을 경우 목록을 불러올 필요가 있음</li>
-                    <li>URL 파싱 및 URL 변경 필요</li>
+                    <li>HOME버튼 : 처음 검색 화면으로 돌아감</li>
+                    <li>초기화버튼 : 같은장소 다른곳을 추천받음</li>
+                    <li>저장버튼 : 추천받은 장소 저장</li>                 
                 </ul>
             </td>
         </tr>
