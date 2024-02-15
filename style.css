@@ -1,18 +1,30 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 20px;
+body, html {
+    height: 100%;
+    margin: 0;
     padding: 0;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
 }
 
-input, button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px;
+body {
+    background-image: url('/과제/3/search.jpg'); /* 이미지 경로를 업로드한 이미지의 경로로 바꿔야 합니다. */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#result {
-    margin-top: 20px;
-    text-align: left;
-    white-space: pre-wrap;
+.search-container {
+    position: absolute;
+    top: 50%; /* 상위 요소 기준으로 50%의 위치에 배치 */
+    left: 50%; /* 상위 요소 기준으로 50%의 위치에 배치 */
+    transform: translate(-50%, -50%); /* 자신의 크기에 따라 정확히 중앙에 위치하도록 조정 */
+    width: 50%; /* 검색창의 너비, 필요에 따라 조정할 수 있습니다. */
+}
+
+#searchInput {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 검색창에 그림자 효과 추가 */
 }
