@@ -45,19 +45,19 @@ gantt
     프로젝트 구상       :done,    des1, 2024-02-12, 1d
 
     section 설계
-    index.html 적성    :done,    des1, 2024-02-13, 1d
+    index.html 작성    :done,    des1, 2024-02-13, 1d
     style.css 작성     :done,    des1, 2024-02-13, 1d
     script.js 작성     :done,    des1, 2024-02-13, 1d
 
     section 개발
-    기능 개발                :         dev2, after des2, 10d
+    index.html 개발    :done,    des1, 2024-02-13, 3d
+    style.css 개발     :done,    des1, 2024-02-13, 3d
+    script.js 개발     :done,    des1, 2024-02-13, 3d
+
     section 테스트
-    테스트 케이스 작성       :         tes1, after dev2, 2d
-    테스트                  :         tes2, after dev1, 2d
-    section 배포
-    배포 준비               :         dep1, after tes2, 2d
-    출시                    :         dep2, after dep1, 1d
-```
+    기능테스트         :done,    des1, 2024-02-15, 1d
+    시스템베포         :done,    des1, 2024-02-15, 1d
+
 
 * 데이터베이스 스키마
     * url(URLparsing)
