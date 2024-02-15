@@ -114,7 +114,7 @@ gantt
     </table>
     <table>
         <tr>
-            <th>포스트 화면</th>
+            <th>검색창</th>
             <th>설명</th>
         </tr>
         <tr width="70%">
