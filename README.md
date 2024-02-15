@@ -101,7 +101,7 @@ gantt
         </tr>
         <tr>
             <td width="70%">
-                ![GPT_-travel_repoProject1](./images/Banner.png)
+                <img src="images/login.png">
             </td>
             <td>
                 <ul>
