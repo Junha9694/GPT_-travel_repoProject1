@@ -93,8 +93,7 @@ gantt
 | board     | 'reset/'                                   | reset             | boardapp/reset.html                  | 검색 초기화 |
 | board     | 'presonal_save /'                          | presonal_save     | boardapp/presonal_save.html          | 개인 저장   |
 
- 화면 정의서
- 
+ 화면 정의서 
     <table>
         <tr>
             <th>메인화면</th>
