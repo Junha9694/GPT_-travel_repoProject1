@@ -39,14 +39,16 @@ flowchart TD
 * WBS
 ```mermaid
 gantt
-    title 깃헙 정적 블로그
+    title Drive Food
     dateFormat  YYYY-MM-DD
     section 계획
-    프로젝트 구상       :done,    des1, 2024-02-12, 2d
-    style.css 작성     :active,  des2, after des1, 1d
+    프로젝트 구상       :done,    des1, 2024-02-12, 1d
+
     section 설계
-    와이어프레임 작성         :         des3, after des2, 7d
-    데이터베이스 스키마 설계  :         des4, after des2, 7d
+    index.html 적성    :done,    des1, 2024-02-13, 1d
+    style.css 작성     :done,    des1, 2024-02-13, 1d
+    script.js 작성     :done,    des1, 2024-02-13, 1d
+
     section 개발
     기능 개발                :         dev2, after des2, 10d
     section 테스트
