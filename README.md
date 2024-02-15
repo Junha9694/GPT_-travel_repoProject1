@@ -101,7 +101,7 @@ gantt
         </tr>
         <tr>
             <td width="70%">
-                <img src="images/login.png">
+                <img src="images/login.jpg">
             </td>
             <td>
                 <ul>
