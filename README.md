@@ -1,6 +1,24 @@
 # Drive Food Project
 ![GPT_-travel_repoProject1](./images/Banner.png)
 
+만들고싶었던계기
+    <table>
+        <tr>
+            <th>지도</th>
+            <th>설명</th>
+        </tr>
+        <tr>
+            <td width="70%">
+                <img src="images/map.jpg">
+            </td>
+            <td>
+                <ul>
+                    <li>여행</li>
+                    <li>맛집투어</li>                   
+                </ul>
+            </td>
+        </tr>
+    </table>
 
 ## 목표
 - 어디로 여행갈지 정해지지 않고 자유여행을 고민할때 시간감소
