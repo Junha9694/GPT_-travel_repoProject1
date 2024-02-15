@@ -147,4 +147,22 @@ gantt
             </td>
         </tr>
     </table>
+        <table>
+        <tr>
+            <th>그 외 메뉴 화면</th>
+            <th>설명</th>
+        </tr>
+        <tr>
+            <td width="70%">
+                <img src="images/result.jpg">
+            </td>
+            <td>
+                <ul>
+                    <li>검색 결과값</li>
+                    <li>추천장소</li>
+                    <li>추천경로</li>                 
+                </ul>
+            </td>
+        </tr>
+    </table>
 
