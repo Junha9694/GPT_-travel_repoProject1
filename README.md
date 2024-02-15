@@ -8,24 +8,15 @@
 
 
 * 사용방법
-    1. github pages를 활성화 해주세요.
-    2. 글을 작성하고 싶으면 `blog`에 `[date]_[title]_[category]_[thumnail]_[description].md` 형식(`md`, `ipynb` 호환)으로 글을 작성해주세요. 섬네일을 비우고 싶다면 `[]`와 같이 빈 값으로 주세요.
-    3. 추가 메뉴를 만들고 싶으면 `menu` 폴더에 `사용하고싶은 메뉴 이름.html` 형식으로 저장하면 메뉴로 생성됩니다.
+    1. Drive Food를 활성화 해주세요.
+    2. 가고 싶은 여행장소를 입력하시면 OPENAI가 근처 드라이브 코스와 관광지를 가르쳐 줍니다.
+    3. 추가하고 싶은 장소를 입력해 주시면 같이 검색해 줍니다.
 
 * 서비스 URL 정보
-    * 실행 URL: https://paullabkorea.github.io/github_blog/
-    * blog github repo: https://github.com/paullabkorea/github_blog
+    * 실행 URL: https://junha9694.github.io/GPT_-travel_repoProject1
+    * https://github.com/Junha9694/GPT_-travel_repoProject1
     
 
-* 기존 GitHub 블로그와 비교
-    * 기존 지킬 블로그에 비해 사용법이 단순
-        * fork 후 pages 설정만 하면 blog 제작 가능
-    * 커스터마이징에 난이도 단순
-        * config.js 파일 수정으로 커스터마이징
-        * style 파일 수정으로 커스터마이징
-        * 빌드 시스템으로 되어 있지 않아 JS를 알면 직접 커스터마이징 가능
-    * 블로그 글을 컴파일 없이 확인 가능
-    * ipynb에 대한 블로깅 가능
 * 구조
 ```mermaid
 graph LR
