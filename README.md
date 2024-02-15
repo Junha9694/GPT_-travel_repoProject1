@@ -1,7 +1,7 @@
 # Drive Food Project
 ![GPT_-travel_repoProject1](./images/Banner.png)
 
-##만들고싶었던계기
+만들고싶었던계기
     <table>
         <tr>
             <th>지도</th>
