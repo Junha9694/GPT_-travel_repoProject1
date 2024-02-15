@@ -101,7 +101,7 @@ gantt
         </tr>
         <tr>
             <td width="70%">
-                <img src="readme_img/Blog.jpg">
+                <img src="images/1.gif">
             </td>
             <td>
                 <ul>
