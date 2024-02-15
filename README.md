@@ -24,11 +24,16 @@
 
 * 구조
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart TD
+    A[Index.html] -->|여행지입력| B(script.js)
+    A -->|스타일요청| D[Style.css]
+    B -->|입력전송| C[GPT 3.5]
+    C --> E[추천여행지]
+    C --> F[추천맛집]
+    E --> G[추천지 통합]
+    F --> G
+    G -->|입력전송| H[Index.html]
+    D -->|스타일전송| H
 ```
 * 중요 의사결정
     * 서비스 고도화에 따라 의사결정이 필요한 부분 정리
