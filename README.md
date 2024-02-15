@@ -40,6 +40,8 @@ flowchart TD
     F --> G
     G -->|입력전송| H[Index.html]
     D -->|스타일전송| H
+    C -->|검색초기화| I[Reset.html]
+    I -->A
 ```
 
 ## WBS
