@@ -8,7 +8,7 @@
             <th>설명</th>
         </tr>
         <tr>
-            <td width="70%">
+            <td width="50%">
                 <img src="images/map.jpg">
             </td>
             <td>
