@@ -77,12 +77,13 @@ gantt
 
 
 - accounts
-| App       | URL                                        | Views Function    | HTML File Name                        | Note           |
-|-----------|--------------------------------------------|-------------------|---------------------------------------|----------------|
-| accounts  | 'register/'                                | register          | accounts/register.html                |회원가입         |
-| accounts  | 'login/'                                   | login             | accounts/login.html                   |로그인           |
-| accounts  | 'logout/'                                  | logout            | accounts/logout.html                  |로그아웃         |
-| accounts  | 'profile/'                                 | profile           | accounts/profile.html                 | 비밀번호변경기능 |
+
+| App       | URL                                       | Views Function    | HTML File Name                       | Note           |
+|-----------|-------------------------------------------|-------------------|--------------------------------------|----------------|
+| accounts  | 'register/'                               | register          | accounts/register.html               |회원가입         |
+| accounts  | 'login/'                                  | login             | accounts/login.html                  |로그인           |
+| accounts  | 'logout/'                                 | logout            | accounts/logout.html                 |로그아웃         |
+| accounts  | 'profile/'                                | profile           | accounts/profile.html                | 비밀번호변경기능 |
 
 
 - board
