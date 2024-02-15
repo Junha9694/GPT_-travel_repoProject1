@@ -18,34 +18,14 @@
     
 
 * 구조
-```mermaid
-graph LR
-    %% Local Utils
-    A[Client] -->|Load Utilities| B[JS/utils.js]
-    A -->|스타일 로드| C[style/globalStyle.js]
-
-    %% CDN
-    A -->|Load Libraries| D[CDN/marked.min.js]
-    A -->|Load Libraries| E[CDN/highlight.min.js]
-    E -->|Highlight Syntax _ 현재 파이썬만 지원| F[CDN/python.min.js]
-    A -->|Load Libraries| G[CDN/tailwind.css]
-    
-    %% Request
-    A -->|Request| H[JS/config.js]
-    H --> I[JS/URLparsing.js]
-    I -->|데이터 초기화 _ 로컬/배포 상태에 따라 호출 다름| J[JS/initData.js]
-    J --> K[JS/render.js]
-    K -->|마크다운/노트북 체크| L[style/blogContentsStyle.js]
-    L -->|노트북일 경우| M[JS/convertIpynbToHtml.js]
-
-    %% Style
-    K -.->|스타일 적용| C[style/globalStyle.js]
-    L -.->|스타일 적용| C[style/globalStyle.js]
-    M -.->|스타일 적용| C[style/globalStyle.js]
-    
-    A -->|Toggle Mobile Menu| Q[JS/mobileMenuToggle.js]
 ```
-
+mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 * 중요 의사결정
     * 서비스 고도화에 따라 의사결정이 필요한 부분 정리
         * local_blogList.json과 local_blogMenu.json를 사용자에게 작성하게 하면 무제한으로 API를 활용할 수 있음
