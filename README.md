@@ -28,7 +28,7 @@
     * https://github.com/Junha9694/GPT_-travel_repoProject1
     
 
-* 구조
+## 구조
 ```mermaid
 flowchart TD
     A[Index.html] -->|여행지입력| B(script.js)
@@ -42,7 +42,7 @@ flowchart TD
     D -->|스타일전송| H
 ```
 
-* WBS
+## WBS
 ```mermaid
 gantt
     title Drive Food
@@ -66,7 +66,7 @@ gantt
 ```
 
 
-### 2.3 URL 구조(모놀리식)
+### URL 구조
 - main
 
 | App       | URL                                        | Views Function    | HTML File Name                        | Note           |
