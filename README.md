@@ -29,13 +29,6 @@
 - **드라이브 및 관광지 추천**: GPT-3.5를 통해 입력한 장소의 드라이브 코스 및 관광지, 야경을 추천 받습니다.
 - **근처 맛집 추천**: 드라이브 코스 근처 맛집을 추천 받습니다.
 
-## 추가기능
-
-- 로그인
-- 회원가입
-- 아이디 / 비번찾기
-- 개인 여행지 등록
-
 ## 사용방법
  - Drive Food를 활성화 해주세요.
  - 가고 싶은 여행장소를 입력하시면 OPENAI가 근처 드라이브 코스와 관광지를 가르쳐 줍니다.
@@ -112,24 +105,6 @@ gantt
 | board     | 'presonal_save /'                          | presonal_save     | boardapp/presonal_save.html          | 개인 저장   |
 
  화면 정의서 
-    <table>
-        <tr>
-            <th>메인화면</th>
-            <th>설명</th>
-        </tr>
-        <tr>
-            <td width="70%">
-                <img src="images/login.jpg">
-            </td>
-            <td>
-                <ul>
-                    <li>로그인 화면</li>
-                    <li>아이디 비번 입력</li>
-                    <li>(+)버튼으로 회원가입</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
     <table>
         <tr>
             <th>검색창</th>
